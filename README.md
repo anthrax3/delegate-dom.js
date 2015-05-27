@@ -71,4 +71,6 @@ The click event will trigger for all ```li``` children that exist now, or are ad
 
 ### Support ###
 
-IE 8 (selector can only be css 2.1 selectors), IE9+, Edge, Chrome, Firefox, Safari
+Included polyfill for matching: IE 8 (selector can only be css 2.1 selectors), Firefox 3, Safari 3.1+, iOS Safari 3.2+, Android Browser 2.1+, Opera Mini
+
+Native matching: IE9+, Edge, Chrome 4+, Firefox 3.6+, Safari 5+, iOS Safari 4.1+, Android Browser 2.2+, Chrome for Android, Firefox for Android
