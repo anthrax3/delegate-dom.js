@@ -38,7 +38,7 @@ Element.prototype.addDelegatedEventListener = function addDelegatedEventListener
 
 		do {
 
-			if ( !element.matches( selector ) ) continue;
+			if ( !element.matches || !element.matches( selector ) ) continue;
 
 			listener.apply( element, arguments );
 
